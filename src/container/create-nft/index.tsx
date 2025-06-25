@@ -56,7 +56,7 @@ const CreateNFT = (): React.ReactElement => {
     setLoading(true);
     try {
       const response = await axios.get(
-        getConfigValue('artcollab.api') + '/gigachat/prompt?prompt=' + encodeURIComponent(inputValue),
+        getConfigValue('project-monday.api') + '/gigachat/prompt?prompt=' + encodeURIComponent(inputValue),
         {
           responseType: 'blob',
         }

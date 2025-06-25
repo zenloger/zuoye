@@ -19,7 +19,7 @@ export const AuthPrompt: React.FC<AuthPromptProps> = ({
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    navigate(getNavigationValue('artcollab.auth'));
+    navigate(getNavigationValue('project-monday.auth'));
     onClose?.();
   };
 

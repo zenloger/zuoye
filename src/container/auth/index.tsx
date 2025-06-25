@@ -53,14 +53,14 @@ const AuthContainer: React.FC = () => {
       }
       
       // Успешно - переход в личный кабинет
-      navigate(getNavigationValue('artcollab.user-center'));
+      navigate(getNavigationValue('project-monday.user-center'));
     } catch (error) {
       console.error('Ошибка аутентификации:', error);
     }
   };
 
   const handleCancel = () => {
-    navigate(getNavigationValue('artcollab.main'));
+    navigate(getNavigationValue('project-monday.main'));
   };
 
   return (

@@ -15,15 +15,15 @@ interface NavigationItem {
 const navigationItems: NavigationItem[] = [
   {
     name: 'Коллекция',
-    href: getNavigationValue('artcollab.collection')
+    href: getNavigationValue('project-monday.collection')
   },
   {
     name: 'Создать',
-    href: getNavigationValue('artcollab.create-nft')
+    href: getNavigationValue('project-monday.create-nft')
   },
   {
     name: 'Контакты',
-    href: getNavigationValue('artcollab.contact')
+    href: getNavigationValue('project-monday.contact')
   },
 
 ];
@@ -39,7 +39,7 @@ const Header = (): React.ReactElement => {
   return (
     <header className="header-header">
       <div className="header-logo">
-          <Link to={getNavigationValue('artcollab.main')}>
+          <Link to={getNavigationValue('project-monday.main')}>
               <span>ArtCollab</span>
           </Link>
       </div>
@@ -65,7 +65,7 @@ const Header = (): React.ReactElement => {
         {isAuthenticated ? (
           <>
             <li className="header-nav__item">
-              <Link to={getNavigationValue('artcollab.user-center')} className="header-nav__link">
+              <Link to={getNavigationValue('project-monday.user-center')} className="header-nav__link">
                 Личный кабинет
               </Link>
             </li>
@@ -77,7 +77,7 @@ const Header = (): React.ReactElement => {
           </>
         ) : (
           <li className="header-nav__item">
-            <Link to={getNavigationValue('artcollab.auth')} className="header-nav__link header-nav__link--auth">
+            <Link to={getNavigationValue('project-monday.auth')} className="header-nav__link header-nav__link--auth">
               Вход/Регистрация
             </Link>
           </li>

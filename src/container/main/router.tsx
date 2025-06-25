@@ -16,43 +16,43 @@ import NotFoundPage from '../404';
 
 export const router = createBrowserRouter([
   {
-    path: getNavigationValue('artcollab.main'),
+    path: getNavigationValue('project-monday.main'),
     element: <Layout />,
     children: [
       {
-        path: getNavigationValue('artcollab.main'),
+        path: getNavigationValue('project-monday.main'),
         element: <MainPage />
       },
       {
-        path: getNavigationValue('artcollab.detail-kaban'),
+        path: getNavigationValue('project-monday.detail-kaban'),
         element: <DetailPageKab />
       },
       {
-        path: getNavigationValue('artcollab.detail-monkey'),
+        path: getNavigationValue('project-monday.detail-monkey'),
         element: <DetailPageMonk />
       },
       {
-        path: getNavigationValue('artcollab.detail-hero'),
+        path: getNavigationValue('project-monday.detail-hero'),
         element: <DetailPageHero />
       },
       {
-        path: getNavigationValue('artcollab.collection'),
+        path: getNavigationValue('project-monday.collection'),
         element: <Collection />
       },
       {
-        path: getNavigationValue('artcollab.create-nft'),
+        path: getNavigationValue('project-monday.create-nft'),
         element: <CreateNFT />
       },
       {
-        path: getNavigationValue('artcollab.contact'),
+        path: getNavigationValue('project-monday.contact'),
         element: <Contacts />
       },
       {
-        path: getNavigationValue('artcollab.auth'),
+        path: getNavigationValue('project-monday.auth'),
         element: <AuthContainer />
       },
       {
-        path: getNavigationValue('artcollab.user-center'),
+        path: getNavigationValue('project-monday.user-center'),
         element: <UserCenterContainer />
       },
       {

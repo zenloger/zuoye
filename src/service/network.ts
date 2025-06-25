@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getConfigValue } from '@brojs/cli';
 
-const baseUrl = getConfigValue('artcollab.api');
+const baseUrl = getConfigValue('project-monday.api');
 
 export const network = axios.create({ baseURL: baseUrl });
 

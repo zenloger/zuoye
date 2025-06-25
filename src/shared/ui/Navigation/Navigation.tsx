@@ -58,7 +58,7 @@ const Navigation: React.FC = () => {
       <div style={navLinksStyle}>
         <Link
           to="/"
-          style={isActive('/') || isActive('/artcollab') ? activeLinkStyle : linkStyle}
+          style={isActive('/') || isActive('/project-monday') ? activeLinkStyle : linkStyle}
         >
           Главная
         </Link>

@@ -1,5 +1,5 @@
 {
-    "name": "artcollab",
+    "name": "project-monday",
     "version": "1.3.1",
     "description": "Project for SberHub (Kzn). Art space for users where they can share inspiration. ",
     "main": "./src/index.tsx",
@@ -14,17 +14,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Yarik091121/artcollab.git"
+        "url": "git+https://github.com/xingzhe588/zuoye.git"
     },
     "keywords": [
-        "artcollab"
+        "project-monday"
     ],
     "author": "CreativeAssociate",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Yarik091121/artcollab/issues"
+        "url": "https://github.com/xingzhe588/zuoye/issues"
     },
-    "homepage": "https://github.com/Yarik091121/artcollab#readme",
+    "homepage": "https://github.com/xingzhe588/zuoye#readme",
     "dependencies": {
         "@brojs/cli": "^1.8.4",
         "@emotion/react": "^11.13.5",
