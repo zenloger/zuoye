@@ -1,0 +1,1 @@
+export { UserCenterPage } from './UserCenterPage';
