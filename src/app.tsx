@@ -6,7 +6,7 @@ import { getConfigValue } from '@brojs/cli';
 
 const App = () => {
   // Test API connection
-  fetch(getConfigValue('artcollab.api') + '/api/');
+  fetch(getConfigValue('project-monday.api') + '/api/');
 
   return (
     <Provider store={store}>

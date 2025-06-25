@@ -88,5 +88,5 @@ Object.defineProperty(window, 'matchMedia', {
 // Mock brojs CLI
 jest.mock('@brojs/cli', () => ({
   getConfigValue: jest.fn(() => 'http://localhost:8000'),
-  getNavigationValue: jest.fn(() => '/artcollab'),
+  getNavigationValue: jest.fn(() => '/project-monday'),
 }));

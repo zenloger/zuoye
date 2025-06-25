@@ -25,7 +25,7 @@ const UserCenterContainer: React.FC = () => {
 
   useEffect(() => {
     if (!isAuthenticated) {
-      navigate(getNavigationValue('artcollab.auth'));
+      navigate(getNavigationValue('project-monday.auth'));
       return;
     }
     loadProfile();
@@ -73,11 +73,11 @@ const UserCenterContainer: React.FC = () => {
 
   const handleLogout = async () => {
     await dispatch(logoutUser() as any);
-    navigate(getNavigationValue('artcollab.main'));
+    navigate(getNavigationValue('project-monday.main'));
   };
 
   const handleBackToMain = () => {
-    navigate(getNavigationValue('artcollab.main'));
+    navigate(getNavigationValue('project-monday.main'));
   };
 
   if (!isAuthenticated) {

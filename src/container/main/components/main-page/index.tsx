@@ -17,14 +17,14 @@ const MainPage = (): React.ReactElement => (
           </div>
           <div className='main-two-buttoms'>
             <div className="main-button-buy-nft-wrapper">
-              <Link className='main-fix-link-buy' to={getNavigationValue('artcollab.create-nft')}>
+              <Link className='main-fix-link-buy' to={getNavigationValue('project-monday.create-nft')}>
                 <div className="main-button-buy-nft">
                   <span>Generate Art</span>
                 </div>
               </Link>
             </div>
             <div className="main-button-galery-wrapper">
-              <Link className='main-fix-link' to={getNavigationValue('artcollab.collection')}>
+              <Link className='main-fix-link' to={getNavigationValue('project-monday.collection')}>
                 <div className="main-button-galery">
                   <span>Explore</span>
                 </div>

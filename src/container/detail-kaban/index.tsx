@@ -59,10 +59,10 @@ const DetailPageKab = (): React.ReactElement => {
           </table>
         </div>
         <div className="detail-buttons">
-        <Link className='main-fix-link-buy' to={getNavigationValue('artcollab.buy')}>
+        <Link className='main-fix-link-buy' to={getNavigationValue('project-monday.buy')}>
           <button className = "detail-button">Купить сейчас</button>
         </Link>
-        <Link className='main-fix-link-buy' to={getNavigationValue('artcollab.bid')}>
+        <Link className='main-fix-link-buy' to={getNavigationValue('project-monday.bid')}>
           <button className = "detail-button">Сделать ставку</button>
         </Link>
         </div>

@@ -1,7 +1,7 @@
 // Base API configuration and utilities
 import { getConfigValue } from '@brojs/cli';
 
-export const API_BASE_URL = getConfigValue('artcollab.api');
+export const API_BASE_URL = getConfigValue('project-monday.api');
 
 // HATEOAS link interface
 export interface HATEOASLink {
